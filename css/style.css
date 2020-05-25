@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: center;
+}
+p{
+    word-spacing: 3px;
+    padding:20px 0px 0px 15px;
+    
+}
+.box{
+   
+    position: relative;
+    float:left;
+    background-color: gray;
+    border:2px solid black;
+   margin-right: 20px;
+   margin-top:10px;
+}
+.chicken span{
+    position:absolute;
+    right: 0px;
+    width: 150px;
+    height:30px;
+    padding: 5px;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    border:1px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.beef span{
+    position:absolute;
+    right:0px;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+background-color:red;
+color: white;
+text-align: center;
+border:1px solid black;
+border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.sushi span{
+    position: absolute;
+    right:0px;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color:khaki;
+color:black;
+text-align: center;
+border: 1px solid black;
+border-left: 2px solid black;
+border-bottom: 2px solid black;
+}
+@media (min-width:992px)
+{
+    .box{
+        width: 31.2%;
+        height: auto;
+        
+    }
+  
+}
+@media (min-width:768px) and (max-width:991px) 
+{
+    .box.chicken{
+        width: 47%;
+        height: auto;
+        margin-left: 5px;
+        
+    }
+    .box.beef
+    {
+        width: 47%;
+        height: auto;
+       
+        
+    }
+    .box.sushi{
+        width: 96.5%;
+        margin-left: 5px;
+        margin-top: 20px;
+        
+    }
+}
+@media(max-width:767px)
+{
+   .box{
+  width: 75%;
+  height: auto;
+  margin:20px 500px 10px 100px;
+   
+    }
+}
